@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ahho_supply_chai.masterVendorIntegrationInquiryOrdering</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>masterVendorIntegrationInquiryOrdering</name>
+        <script><![CDATA[var masterVendorIntegrationInquiryOrdering = Class.create();
+masterVendorIntegrationInquiryOrdering.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+masterVendorIntegrationInquiryOrd: function() {
+	 var obj = {};
+		var vendname;
+	var sysid1;
+	var sysid2;
+	var vendname1;
+		var vendor = this.getParameter('sysparm_vendor');
+	var vendor1 = this.getParameter('sysparm_vendor1');
+		var gr1 = new GlideRecord('x_ahho_supply_chai_vendors');
+		gr1.addQuery('sys_id', vendor);
+		gr1.query();
+		if (gr1.next())
+			//query vendor name for sysid passed from client script
+			 vendname = gr1.u_vendor_name;
+			//GP vendor master table
+				 var gr = new GlideRecord('u_gp_vendor_master');
+				  gr.addQuery('u_vendname', vendname);
+				gr.query();
+		        if (gr.next())
+					//fetching sysid for old vendor value from new vendor table
+					  sysid1 = gr.sys_id;
+		        
+	
+	
+	
+	var sp1 = new GlideRecord('x_ahho_supply_chai_vendors');
+		sp1.addQuery('sys_id', vendor1);
+		sp1.query();
+		if (sp1.next())
+			//query vendor name for sysid passed from client script
+			 vendname1 = sp1.u_vendor_name;
+				//GP vendor master table
+				 var sp = new GlideRecord('u_gp_vendor_master');
+				  sp.addQuery('u_vendname', vendname1);
+				sp.query();
+		        if (sp.next())
+						//fetching sysid for old vendor value from new vendor table
+					  sysid2 = sp.sys_id;
+//passing sysid for both vendor fields
+var answer = sysid1 +';'+sysid2;
+	return answer;
+	
+ 	},
+    type: 'masterVendorIntegrationInquiryOrdering'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sxUpadhyay</sys_created_by>
+        <sys_created_on>2017-07-25 01:08:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>76d36fd313c80f00d80074c66144b0a2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>masterVendorIntegrationInquiryOrdering</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sys_script_include_76d36fd313c80f00d80074c66144b0a2</sys_update_name>
+        <sys_updated_by>sxUpadhyay</sys_updated_by>
+        <sys_updated_on>2017-07-26 16:23:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

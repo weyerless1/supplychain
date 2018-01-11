@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Vendor ">00e6d18a13a58740cb92b7a66144b0a8</catalog_item>
+        <catalog_variable>IO:496e6b7d13a18740cb92b7a66144b084</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>sxUpadhyay</sys_created_by>
+        <sys_created_on>2017-12-14 16:06:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>55d9b695138fc340cb92b7a66144b0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pre_post_service</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_55d9b695138fc340cb92b7a66144b0d9</sys_update_name>
+        <sys_updated_by>sxUpadhyay</sys_updated_by>
+        <sys_updated_on>2017-12-14 16:06:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If Supplier request is service or both then offsite onsite and Pre or post service should be mandatory">36177e59130fc340cb92b7a66144b0b3</ui_policy>
+        <variable>pre_post_service</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

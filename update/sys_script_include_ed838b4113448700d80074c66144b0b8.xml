@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ahho_supply_chai.MasterVendorIntegration</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MasterVendorIntegration</name>
+        <script><![CDATA[var MasterVendorIntegration = Class.create();
+MasterVendorIntegration.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+masterVendorIntegration: function() {
+	var sysID;
+		var vendname;
+		var vendor = this.getParameter('sysparm_vendor');
+		var gr1 = new GlideRecord('x_ahho_supply_chai_vendors');
+		gr1.addQuery('sys_id', vendor);
+		gr1.query();
+		if (gr1.next())
+			//query vendor name for sysid passed from client script
+			 vendname = gr1.u_vendor_name;
+			//GP vendor master table
+				 var gr = new GlideRecord('u_gp_vendor_master');
+				  gr.addQuery('u_vendname', vendname);
+				gr.query();
+		        if (gr.next())
+					//fetching sysid for old vendor value from new vendor table
+					  sysID = gr.sys_id;
+		        return sysID;
+ 	},
+	
+    type: 'MasterVendorIntegration'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sxUpadhyay</sys_created_by>
+        <sys_created_on>2017-07-17 19:04:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ed838b4113448700d80074c66144b0b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MasterVendorIntegration</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sys_script_include_ed838b4113448700d80074c66144b0b8</sys_update_name>
+        <sys_updated_by>sxUpadhyay</sys_updated_by>
+        <sys_updated_on>2017-07-26 16:22:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sc_catalog" relationship="" sys_domain="global" table="sc_cat_item" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sc_cat_item" element="NULL" name="sc_cat_item" parent="sc_catalog" relationship="NULL" sys_domain="global" view="Default view">58e38210d7301100f20024837e6103f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-29 15:57:32</sys_created_on>
+            <sys_id>d8e38210d7301100f20024837e6103f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-29 15:57:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="sc_cat_item" element="NULL" name="sc_cat_item" parent="sc_catalog" relationship="NULL" sys_domain="global" view="Default view">58e38210d7301100f20024837e6103f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-29 15:57:32</sys_created_on>
+            <sys_id>1ce38210d7301100f20024837e6103f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-29 15:57:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="sc_cat_item" element="NULL" name="sc_cat_item" parent="sc_catalog" relationship="NULL" sys_domain="global" view="Default view">58e38210d7301100f20024837e6103f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-29 15:57:32</sys_created_on>
+            <sys_id>5ce38210d7301100f20024837e6103f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-29 15:57:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="sc_cat_item" element="NULL" name="sc_cat_item" parent="sc_catalog" relationship="NULL" sys_domain="global" view="Default view">58e38210d7301100f20024837e6103f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2013-10-29 15:57:32</sys_created_on>
+            <sys_id>9ce38210d7301100f20024837e6103f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2013-10-29 15:57:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sc_cat_item</name>
+            <parent>sc_catalog</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2017-02-06 16:23:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>6f575d914fb03e04369ffd511310c760</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_cat_item</sys_name>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_ui_list_sc_cat_item_sc_catalog_null</sys_update_name>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2017-02-06 16:23:55</sys_updated_on>
+            <sys_user display_value="Gouthami Budedeti">58bb78f94f15260037dd4b5e0210c7e2</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

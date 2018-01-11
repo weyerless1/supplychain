@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_to>item</applies_to>
+        <cat_item display_value="DSS-Missing Vendor">1fe02e3313aaee0082857e776144b06f</cat_item>
+        <cat_variable>IO:9a489ead1338b680d80074c66144b05f</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Autopopulate Vendor ID</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+	if(oldValue!=newValue)
+		{
+			var caller = g_form.getReference('u_vendor_name_4',doVendor);
+		}
+	function doVendor(caller)
+	{
+		var test = caller.u_vendor_id;
+		g_form.setValue('u_vendor_id_from_rsq',test);
+	}
+	if(newValue=='')
+		{
+			g_form.setValue('u_vendor_id_from_rsq','');
+		}
+	
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2017-02-07 15:47:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2d8816ed1338b680d80074c66144b0ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autopopulate Vendor ID</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>catalog_script_client_2d8816ed1338b680d80074c66144b0ff</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2017-02-07 15:47:38</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

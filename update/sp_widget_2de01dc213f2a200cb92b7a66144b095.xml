@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function ($scope, spUtil, $rootScope) {	
+	var bc = [{label: $scope.page.title, url: '?id=' + $scope.data.sc_catalog_page}];
+	if ($scope.data.category)
+		bc[bc.length] = {label: $scope.data.category, url: '#'};
+	
+	$rootScope.$broadcast('sp.update.breadcrumbs', bc);	
+	spUtil.setSearchPage('sc');
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>supply---sc-category-page</id>
+        <internal>false</internal>
+        <link/>
+        <name>Supply - SC Category Page</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.category_id = $sp.getParameter("sys_id");
+	if (options && options.sys_id)
+		data.category_id = options.sys_id;
+
+	data.sc_catalog_page = $sp.getDisplayValue("sc_catalog_page") || "sc_home";
+	// Does user have permission to see this category?
+	if (!$sp.canReadRecord("sc_category", data.category_id)) {
+		data.error = "You do not have permission to see this category";
+		return;
+	} 
+
+	var cat = new GlideRecord('sc_category');
+	cat.get(data.category_id);
+	data.category = cat.getDisplayValue('title');
+	var items = data.items = [];
+	var sc = new GlideRecord('sc_cat_item_category');
+	if (data.category_id) 
+		sc.addQuery('sc_category', data.category_id);
+
+	sc.addQuery('sc_cat_item.active',true);
+	sc.addQuery('sc_cat_item.sys_class_name', 'NOT IN', 'sc_cat_item_wizard,sc_cat_item_content');
+	sc.orderBy('sc_cat_item.order');
+	sc.orderBy('sc_cat_item.name');
+	sc.query();
+	while (sc.next()) {
+		// Does user have permission to see this item?
+		if (!$sp.canReadRecord("sc_cat_item", sc.sc_cat_item.sys_id.getDisplayValue()))
+			continue;
+
+		var item = {};
+		var gr = new GlideRecord('sc_cat_item');
+		gr.get(sc.sc_cat_item);
+		$sp.getRecordDisplayValues(item, gr, 'name,short_description,picture,price,sys_id');
+		item.sys_class_name = sc.sc_cat_item.sys_class_name + "";
+		item.page = 'sc_cat_item';
+		if (item.sys_class_name == 'sc_cat_item_guide')
+			item.page = 'sc_cat_item_guide';
+
+		items.push(item);
+	}
+})()
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-11-01 13:47:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2de01dc213f2a200cb92b7a66144b095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Supply - SC Category Page</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sp_widget_2de01dc213f2a200cb92b7a66144b095</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-11-01 13:47:01</sys_updated_on>
+        <template><![CDATA[<div> 
+  <h4 ng-if="data.error">{{data.error}}</h4>
+  <div ng-init="spSearch.targetCatalog()">
+    <h4 class="m-t-none">{{data.category}}</h4>
+    <div class="row">      
+      <div class="col-sm-6 col-md-4" ng-repeat="item in data.items">
+        <div class="panel panel-{{::options.color}} b">
+          <a href="?id={{item.page}}&sys_id={{item.sys_id}}" class="panel-body block">
+            <div class="overflow-100">
+              <h4 class="m-t-none m-b-xs">{{item.name}}</h4>
+              <img ng-src="{{item.picture}}" ng-if="item.picture" class="m-r-sm m-b-sm item-image pull-left" />
+              <div class="text-muted item-short-desc">{{item.short_description}}</div>
+            </div>
+          </a>
+          <div class="panel-footer">
+            <a href="?id={{item.page}}&sys_id={{item.sys_id}}" class="pull-left text-muted">${View Details}</a> <span ng-if="item.price != '$0.00'" class="pull-right item-price font-bold">{{item.price}}</span> &nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

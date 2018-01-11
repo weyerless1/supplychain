@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_business_residential" label="Business/ Residential" language="en" table="x_ahho_supply_chai_all_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_business_residential</element>
+            <help/>
+            <hint/>
+            <label>Business/ Residential</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <plural>Business/ Residentials</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-11-08 19:17:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>78ffd25013476200cb92b7a66144b0ce</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Business/ Residential</sys_name>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_documentation_x_ahho_supply_chai_all_requests_u_business_residential_en</sys_update_name>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2016-11-10 02:09:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_updated_at_1" label="Time to close" language="en" table="x_ahho_supply_chai_all_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_updated_at_1</element>
+            <help/>
+            <hint/>
+            <label>Time to close</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <plural>Time to closes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2017-01-27 17:10:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8e120a0e13a8fe40d80074c66144b09b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Time to close</sys_name>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_documentation_x_ahho_supply_chai_all_requests_u_updated_at_1_en</sys_update_name>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2017-01-27 21:07:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

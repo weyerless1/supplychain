@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>New Supplier</name>
+        <order/>
+        <roles>x_ahho_supply_chai.new_supplier_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>sxUpadhyay</sys_created_by>
+        <sys_created_on>2017-10-24 13:46:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>db90fb74130a8780cb92b7a66144b026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Supplier</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sys_ui_application_db90fb74130a8780cb92b7a66144b026</sys_update_name>
+        <sys_updated_by>sxUpadhyay</sys_updated_by>
+        <sys_updated_on>2017-10-24 13:46:07</sys_updated_on>
+    </sys_ui_application>
+</record_update>

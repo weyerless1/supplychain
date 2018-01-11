@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>#FFFFFF</background_color>
+        <description>Supply Chain Catalog</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-10-25 19:42:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>073fdeff136aee0082857e776144b056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Supply Chain</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sc_catalog_073fdeff136aee0082857e776144b056</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-10-25 19:42:34</sys_updated_on>
+        <title>Supply Chain</title>
+    </sc_catalog>
+</record_update>

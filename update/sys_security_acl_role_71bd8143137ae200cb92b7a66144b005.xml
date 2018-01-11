@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-11-04 16:06:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>71bd8143137ae200cb92b7a66144b005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_ahho_supply_chai_all_requests_user</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_security_acl display_value="x_ahho_supply_chai_all_requests.u_resolution_type">2fad4d43137ae200cb92b7a66144b041</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_71bd8143137ae200cb92b7a66144b005</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-11-04 16:06:18</sys_updated_on>
+        <sys_user_role display_value="x_ahho_supply_chai_all_requests_user" name="x_ahho_supply_chai_all_requests_user">077856fb136aee0082857e776144b029</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

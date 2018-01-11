@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Ahho Supply Chai Ship Sites" max_length="40" name="u_imp_tmpl_x_ahho_supply_chai_ship_sites" type="collection">
+        <element attributes="import_attribute_name=Site Name,edge_encryption_enabled=true" label="Site Name" max_length="100" name="u_site_name" type="string"/>
+    </element>
+</database>

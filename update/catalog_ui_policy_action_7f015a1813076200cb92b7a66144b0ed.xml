@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:c490dad413076200cb92b7a66144b0e1</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-11-08 18:12:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7f015a1813076200cb92b7a66144b0ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_wo</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7f015a1813076200cb92b7a66144b0ed</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-11-08 18:12:18</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show WO # based on PO Type">47b0d61813076200cb92b7a66144b035</ui_policy>
+        <variable>u_wo</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

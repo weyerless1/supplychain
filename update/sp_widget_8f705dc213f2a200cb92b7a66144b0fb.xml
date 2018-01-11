@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data>{"options" :&#13;
+   {&#13;
+      "hide_xs" : false&#13;
+   }&#13;
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Supply - SC Categories</name>
+        <option_schema>[{"name":"hide_xs","default_value":false,"label":"Hide at XS","type":"boolean"},{"name":"omit_badges","label":"Omit badges","type":"boolean"},{"name":"check_can_view","label":"Check canView per item (may impact performance for large catalogs)","type":"boolean"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// populate the 'data' object
+data.categories = [];
+
+var sc = new GlideRecord('sc_category');
+sc.addQuery('sys_class_name', 'Internal Requests');
+sc.addActiveQuery();
+//sc.orderBy('title');
+data.sc_catalog = $sp.getValue('sc_catalog');
+if (data.sc_catalog)
+	sc.addQuery('sc_catalog', data.sc_catalog);
+
+sc.query();
+while (sc.next()) {
+	if (!$sp.canReadRecord("sc_category", sc.getUniqueValue()))
+		continue;
+
+	if (!options.check_can_view) {
+		// use GlideAggregate by way of GlideRecordCounter, doesn't check canView on each item
+		var count = new GlideAggregate('sc_cat_item_category');
+		count.addQuery('sc_category', sc.getUniqueValue());
+	  count.addQuery('sc_cat_item.active', true);
+		//count.addQuery('sc_cat_item.visible_standalone', true);
+		//count.addQuery('sc_cat_item.sys_class_name', 'NOT IN', 'sc_cat_item_wizard,sc_cat_item_content');
+		count.addAggregate('COUNT');
+		count.query();
+		//prepQuery(count);
+		var item_count = count.getAggregate('COUNT');
+		if (item_count > 0) {
+			var cat = {};
+			cat.title = sc.title.getDisplayValue();
+			cat.sys_id = sc.getUniqueValue();
+			cat.count = item_count;
+			cat.parent = sc.parent.getDisplayValue();
+			data.categories.push(cat);
+			} else {
+			var cat = {};
+			cat.title = 'Nil';
+			cat.sys_id = 'Nil';
+			cat.count = item_count;
+			cat.parent = 'Nil';
+		//	data.categories.push(cat);
+		}
+	}
+	
+	if (options.check_can_view) {
+		// use GlideRecord, checking canView on each item
+		var itemCat = new GlideRecord('sc_cat_item_category');
+		prepQuery(itemCat);
+		itemCat.query();
+		var validatedCount = 0;
+		var checked = 0;
+		while (itemCat.next()) {
+			checked++;
+			if ($sp.canReadRecord("sc_cat_item", itemCat.sc_cat_item))
+				validatedCount++;
+
+			// if user can't see the first 50 items in this category, give up
+			if (validatedCount == 0 && checked == 50)
+				break;
+			
+			// if omitting badges, and if we found one, work is done
+			if (validatedCount > 0 && options.omit_badges)
+				break;
+		}
+		
+		if (validatedCount > 0) {
+			var cat = {};
+			cat.title = sc.title.getDisplayValue();
+			cat.sys_id = sc.getUniqueValue();
+			cat.count = validatedCount;
+			cat.parent = sc.parent.getDisplayValue();
+			data.categories.push(cat);
+		}
+			
+	}
+}
+
+function prepQuery(gr) {
+		gr.addQuery('sc_category', sc.getUniqueValue());
+		gr.addQuery('sc_cat_item.active', true);
+		gr.addQuery('sc_cat_item.visible_standalone', true);
+		gr.addQuery('sc_cat_item.sys_class_name', 'NOT IN', 'sc_cat_item_wizard,sc_cat_item_content');
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-11-01 13:45:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f705dc213f2a200cb92b7a66144b0fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Supply - SC Categories</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sp_widget_8f705dc213f2a200cb92b7a66144b0fb</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-11-01 18:56:09</sys_updated_on>
+        <template><![CDATA[<div ng-class="::{'hidden-xs' : options.hide_xs}" class="panel panel-{{::options.color}} b">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <span ng-if="::options.glyph">
+        <fa name="{{::options.glyph}}" />
+      </span>{{::options.title}}</h4>
+  </div>
+  <div class="list-group no-radius alt">
+    <div ng-repeat="cat in ::data.categories">
+      <a class="list-group-item" href="?id=sc_category&sys_id={{::cat.sys_id}}">
+        <span ng-if="!options.omit_badges" class="label label-as-badge label-primary">{{::cat.count}}</span>
+        <i class="fa fa-folder-open fa-fw text-muted"></i>{{::cat.title}}
+      </a>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

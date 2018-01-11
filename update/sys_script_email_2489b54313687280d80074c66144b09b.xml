@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Supply_Chain_Ship_Site</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	
+	var watermark;
+	//var sHTML='';
+	var instance_name = gs.getProperty('instance_name');
+	
+var test = '<a href = "mailto:' + instance_name + '@service-now.com? subject=Re:' + current.number + '-approve&body=Approve this request. Please do not change the subject or body. Please just click on send,' +'Ref:'+ 'watermark' +'">Click here to approve.</a>';
+	
+	test += '<a href = "mailto:' + instance_name + '@service-now.com? subject=Re:' + current.number + '-reject&body=Reject this request. Please do not change the subject or body. Please just click on send,' +'Ref:'+ 'watermark' +'">Click here to reject.</a>';
+	
+	
+	email.setBody(test);
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2017-01-30 19:13:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2489b54313687280d80074c66144b09b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Supply_Chain_Ship_Site</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sys_script_email_2489b54313687280d80074c66144b09b</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2017-01-30 19:13:38</sys_updated_on>
+    </sys_script_email>
+</record_update>

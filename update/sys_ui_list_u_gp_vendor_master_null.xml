@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_gp_vendor_master" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_address1</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>bc3dcd894f667640951409d14210c763</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_address2</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>303dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_address3</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>b03dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ccode</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>343dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_city</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>b43dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_country</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>383dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_creatddt</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>b83dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_hold</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>3c3dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_modifdt</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>bc3dcd894f667640951409d14210c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_shipmthd</element>
+            <list_id display_value="u_gp_vendor_master" element="NULL" name="u_gp_vendor_master" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">783dcd894f667640951409d14210c763</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>hsgill</sys_created_by>
+            <sys_created_on>2017-05-03 20:50:53</sys_created_on>
+            <sys_id>303dcd894f667640951409d14210c765</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hsgill</sys_updated_by>
+            <sys_updated_on>2017-05-03 20:50:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_gp_vendor_master</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-15 22:56:12</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>98f529a813440700cb92b7a66144b060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_gp_vendor_master</sys_name>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_ui_list_u_gp_vendor_master_null</sys_update_name>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-15 22:56:12</sys_updated_on>
+            <sys_user display_value="Shiwani Upadhyay">805c59064fa30a4064dd0f1f0310c74a</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

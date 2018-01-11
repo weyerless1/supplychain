@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Imp Tmpl X Ahho Supply Chai Ship Sites" language="en" table="u_imp_tmpl_x_ahho_supply_chai_ship_sites">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Imp Tmpl X Ahho Supply Chai Ship Sites</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_ahho_supply_chai_ship_sites</name>
+            <plural>Imp Tmpl X Ahho Supply Chai Ship Sites</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2017-01-30 22:04:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3922624f13a87280d80074c66144b0ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Imp Tmpl X Ahho Supply Chai Ship Sites</sys_name>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_ahho_supply_chai_ship_sites__en</sys_update_name>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2017-01-30 22:04:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

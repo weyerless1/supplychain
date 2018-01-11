@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="ec3198b913fa6200cb92b7a66144b075" sys_domain="global" table="x_ahho_supply_chai_all_requests" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>c2e903af13044f00d80074c66144b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>1</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>46e903af13044f00d80074c66144b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_type</element>
+            <position>2</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>c6e903af13044f00d80074c66144b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <position>3</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>4ae903af13044f00d80074c66144b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>4</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>cae903af13044f00d80074c66144b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_what_information_is_needed</element>
+            <position>5</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>4ee903af13044f00d80074c66144b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_by</element>
+            <position>7</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>8</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sub_status</element>
+            <position>9</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_please_provide_info</element>
+            <position>10</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assigned_to</element>
+            <position>11</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resolution_type</element>
+            <position>12</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>14</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_name</element>
+            <position>15</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_name_2</element>
+            <position>16</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor1_orderinquiry</element>
+            <position>17</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_name_dssreprint</element>
+            <position>18</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_name_3</element>
+            <position>19</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_name_1</element>
+            <position>20</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_name_apbilling</element>
+            <position>21</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_name_vendor_update</element>
+            <position>22</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_name_multiple_wrkorder</element>
+            <position>23</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>24</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_name_4</element>
+            <position>25</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_this_a_billing_update</element>
+            <position>26</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_this_a_billing_update_1</element>
+            <position>27</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_id_from_rsq</element>
+            <position>28</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_1</element>
+            <position>29</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_1_1</element>
+            <position>30</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_2</element>
+            <position>31</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_2_1</element>
+            <position>32</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_3</element>
+            <position>33</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_3_1</element>
+            <position>34</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_4</element>
+            <position>35</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_4_1</element>
+            <position>36</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_5</element>
+            <position>37</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_5_1</element>
+            <position>38</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_this_supplier</element>
+            <position>39</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type_of_data_request</element>
+            <position>40</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_site_name</element>
+            <position>41</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_site_name_1</element>
+            <position>42</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ship_site</element>
+            <position>43</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ship_site_1</element>
+            <position>44</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_center</element>
+            <position>45</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_center_1</element>
+            <position>46</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_center_2</element>
+            <position>47</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_center_3</element>
+            <position>48</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_po</element>
+            <position>49</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_1</element>
+            <position>50</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_po_1</element>
+            <position>51</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rq_1</element>
+            <position>52</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rq_2</element>
+            <position>53</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rq_3</element>
+            <position>54</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:43</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_this_site_currenty_in_rsq</element>
+            <position>55</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_this_site_currently_in_rsq_1</element>
+            <position>56</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_address</element>
+            <position>57</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_address_needed</element>
+            <position>58</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_attn</element>
+            <position>59</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_attn_needed</element>
+            <position>60</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rq</element>
+            <position>61</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_approved_in_rsq</element>
+            <position>62</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>63</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_on_site_off_site</element>
+            <position>64</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_on_site_off_site_1</element>
+            <position>65</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor2_orderinquiry</element>
+            <position>66</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_6</element>
+            <position>67</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_7</element>
+            <position>68</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_8</element>
+            <position>69</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_9</element>
+            <position>70</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_10</element>
+            <position>71</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_2</element>
+            <position>72</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_po_2</element>
+            <position>73</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rq_4</element>
+            <position>74</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rq_5</element>
+            <position>75</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rq_6</element>
+            <position>76</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_this_supplier_1</element>
+            <position>77</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_would_you_like</element>
+            <position>78</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_level_of_urgency</element>
+            <position>79</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dollar_amount_needed_on_the_po</element>
+            <position>80</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description_of_equip</element>
+            <position>81</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mfr_name</element>
+            <position>82</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vend_address_id</element>
+            <position>83</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_address_id_1</element>
+            <position>84</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_item_s_to_be_updated</element>
+            <position>85</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_item_s_to_be_updated_1</element>
+            <position>86</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_residential</element>
+            <position>87</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager_s_name</element>
+            <position>88</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager_s_name_1</element>
+            <position>89</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager_s_email</element>
+            <position>90</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager_s_email_1</element>
+            <position>91</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_part_on_backorder</element>
+            <position>92</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_part_eol</element>
+            <position>93</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reason_for_add</element>
+            <position>94</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requestor_name</element>
+            <position>95</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email_address</element>
+            <position>96</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments</element>
+            <position>97</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments_1</element>
+            <position>98</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments_2</element>
+            <position>99</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments_3</element>
+            <position>100</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dae903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_updated_at_1</element>
+            <position>101</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ee903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_time_to_update</element>
+            <position>102</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>dee903af13044f00d80074c66144b0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>103</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>52e903af13044f00d80074c66144b0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email_content</element>
+            <position>104</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d2e903af13044f00d80074c66144b0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>105</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>56e903af13044f00d80074c66144b0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>106</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>d6e903af13044f00d80074c66144b0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>107</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-07-25 13:54:44</sys_created_on>
+            <sys_id>5ae903af13044f00d80074c66144b0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_supplier</element>
+            <position>108</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2017-11-08 15:54:37</sys_created_on>
+            <sys_id>08ed917913524300cb92b7a66144b0ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:54:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assign_group</element>
+            <position>109</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2018-01-10 17:48:17</sys_created_on>
+            <sys_id>cf045e8613eb47c0cb92b7a66144b0ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2018-01-10 17:48:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_grp</element>
+            <position>110</position>
+            <sys_created_by>sxUpadhyay</sys_created_by>
+            <sys_created_on>2018-01-10 17:50:19</sys_created_on>
+            <sys_id>b484d6c613eb47c0cb92b7a66144b06b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2018-01-10 17:50:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-10-31 14:28:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ec3198b913fa6200cb92b7a66144b075</sys_id>
+            <sys_mod_count>17</sys_mod_count>
+            <sys_name>x_ahho_supply_chai_all_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_ui_section_ec3198b913fa6200cb92b7a66144b075</sys_update_name>
+            <sys_updated_by>sxUpadhyay</sys_updated_by>
+            <sys_updated_on>2018-01-10 17:50:19</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

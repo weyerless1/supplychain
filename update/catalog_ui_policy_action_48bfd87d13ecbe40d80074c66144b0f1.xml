@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Order Inquiry">c7b1aa7313aaee0082857e776144b00e</catalog_item>
+        <catalog_variable>IO:4504a1fd137e6200cb92b7a66144b0d7</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2017-01-26 15:22:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48bfd87d13ecbe40d80074c66144b0f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_po_2</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_48bfd87d13ecbe40d80074c66144b0f1</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2017-01-26 15:22:07</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make PO #2 mandatory">757f987d13ecbe40d80074c66144b021</ui_policy>
+        <variable>u_po_2</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NewIntegration</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	var name='';
+	var sysid;
+	//getting sysid of old vendor field
+	name = g_form.getValue('u_vendor_name_4');
+	//supply chain application was not able to access this so made it global
+	var ga = new GlideAjax('MasterVendorIntegration');
+    ga.addParam('sysparm_name','masterVendorIntegration');
+	ga.addParam('sysparm_vendor',name);
+	ga.getXML(ajaxResponse);
+	
+	function ajaxResponse(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+			//assigning old vendor field value to new vendor field
+		if(g_form.getDisplayBox('u_vendor_name_4').value != '')
+		g_form.setValue('vendor',answer);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sxUpadhyay</sys_created_by>
+        <sys_created_on>2017-07-17 17:29:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f14b228913c08700d80074c66144b0a2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>NewIntegration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sys_script_client_f14b228913c08700d80074c66144b0a2</sys_update_name>
+        <sys_updated_by>sxUpadhyay</sys_updated_by>
+        <sys_updated_on>2017-07-26 18:06:33</sys_updated_on>
+        <table>x_ahho_supply_chai_all_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

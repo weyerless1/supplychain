@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_reason_for_add</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2017-01-27 21:19:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cd2b7206136cfe40d80074c66144b09e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reason_for_add</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_cd2b7206136cfe40d80074c66144b09e</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2017-01-27 21:19:48</sys_updated_on>
+        <table>x_ahho_supply_chai_all_requests</table>
+        <ui_policy display_value="Show New Ship Site fields">4ca6153d1360fe40d80074c66144b041</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

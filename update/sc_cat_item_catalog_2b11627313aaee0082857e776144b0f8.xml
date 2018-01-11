@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="DSS-Missing Vendor">1fe02e3313aaee0082857e776144b06f</sc_cat_item>
+        <sc_catalog display_value="Supply Chain">073fdeff136aee0082857e776144b056</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-10-25 19:49:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2b11627313aaee0082857e776144b0f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Supply Chain.DSS Call Ins</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_2b11627313aaee0082857e776144b0f8</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-10-25 19:49:40</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

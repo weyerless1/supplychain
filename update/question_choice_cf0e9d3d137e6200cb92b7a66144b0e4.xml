@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question/>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-10-31 20:04:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cf0e9d3d137e6200cb92b7a66144b0e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On-Site</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>question_choice_cf0e9d3d137e6200cb92b7a66144b0e4</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-10-31 20:04:42</sys_updated_on>
+        <text>On-Site</text>
+        <value>on-site</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=cf0e9d3d137e6200cb92b7a66144b0e4"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>cf0e9d3d137e6200cb92b7a66144b0e4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-10-31 20:04:42</sys_created_on>
+        <sys_id>e61edd3d137e6200cb92b7a66144b043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-10-31 20:04:42</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>cf0e9d3d137e6200cb92b7a66144b0e4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2016-10-31 20:04:42</sys_created_on>
+        <sys_id>661edd3d137e6200cb92b7a66144b043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2016-10-31 20:04:42</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

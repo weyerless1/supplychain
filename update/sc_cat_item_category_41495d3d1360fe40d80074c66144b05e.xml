@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="New Ship Site">6e091d7d1360fe40d80074c66144b0ad</sc_cat_item>
+        <sc_category display_value="External Requests">2a2e094213f2a200cb92b7a66144b081</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>gxBudedeti</sys_created_by>
+        <sys_created_on>2017-01-26 19:33:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41495d3d1360fe40d80074c66144b05e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>External Requests.New Ship Site</sys_name>
+        <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+        <sys_update_name>sc_cat_item_category_41495d3d1360fe40d80074c66144b05e</sys_update_name>
+        <sys_updated_by>gxBudedeti</sys_updated_by>
+        <sys_updated_on>2017-01-26 19:33:28</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
