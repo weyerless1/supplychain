@@ -40,7 +40,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <roles/>
-        <sc_catalogs>073fdeff136aee0082857e776144b056</sc_catalogs>
+        <sc_catalogs>073fdeff136aee0082857e776144b056,1bf91c2b139e9700d80074c66144b0dd</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script><![CDATA[//  gs.include("FormInfoHeader");

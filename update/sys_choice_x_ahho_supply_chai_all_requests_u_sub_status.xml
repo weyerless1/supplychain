@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_sub_status" table="x_ahho_supply_chai_all_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sub_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Issues</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-14 01:44:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a49869824f472240084358211310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-14 01:44:37</sys_updated_on>
+            <value>no issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sub_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting on Information from Requestor</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-14 01:44:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e49869824f472240084358211310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-14 01:44:37</sys_updated_on>
+            <value>waiting on information from requestor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sub_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting on Information from Vendor</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-14 01:44:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>289869824f472240084358211310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-14 01:44:37</sys_updated_on>
+            <value>waiting on information from vendor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_sub_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-06 15:40:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>746d89114f303e04369ffd511310c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-06 15:40:18</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_sub_status</element>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-11-14 01:44:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>689869824f472240084358211310c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_sub_status</sys_name>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_choice_x_ahho_supply_chai_all_requests_u_sub_status</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-11-14 01:44:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

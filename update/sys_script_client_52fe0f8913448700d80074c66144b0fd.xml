@@ -44,7 +44,7 @@
         <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
         <sys_update_name>sys_script_client_52fe0f8913448700d80074c66144b0fd</sys_update_name>
         <sys_updated_by>sxUpadhyay</sys_updated_by>
-        <sys_updated_on>2017-07-26 18:06:21</sys_updated_on>
+        <sys_updated_on>2017-08-14 03:22:46</sys_updated_on>
         <table>x_ahho_supply_chai_all_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

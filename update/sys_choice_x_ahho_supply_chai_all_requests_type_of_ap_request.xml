@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_ap_request" table="x_ahho_supply_chai_all_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_ap_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No PO</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>0</sequence>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-10-31 13:38:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e98504f513fa6200cb92b7a66144b04d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2016-10-31 13:38:01</sys_updated_on>
+            <value>no_po</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_ap_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pricing Discrepancy</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>1</sequence>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-10-31 13:38:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>40a5c47513fa6200cb92b7a66144b07a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2016-10-31 13:38:41</sys_updated_on>
+            <value>pricing_discrepancy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_ap_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quantity Discrepancy</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>2</sequence>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-10-31 13:38:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c9c544f513fa6200cb92b7a66144b0a0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2016-10-31 13:39:21</sys_updated_on>
+            <value>quantity_discrepancy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_ap_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor Name Discrepancy</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>3</sequence>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-10-31 13:40:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>27e504f513fa6200cb92b7a66144b0b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2016-10-31 13:40:11</sys_updated_on>
+            <value>vendor_name_discrepancy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_ap_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sequence>4</sequence>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-10-31 13:40:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6f16c4f513fa6200cb92b7a66144b0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2016-10-31 13:40:37</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_ap_request</element>
+            <name>x_ahho_supply_chai_all_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>gxBudedeti</sys_created_by>
+            <sys_created_on>2016-10-31 13:38:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fffd45914f303e04369ffd511310c706</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>type_of_ap_request</sys_name>
+            <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
+            <sys_update_name>sys_choice_x_ahho_supply_chai_all_requests_type_of_ap_request</sys_update_name>
+            <sys_updated_by>gxBudedeti</sys_updated_by>
+            <sys_updated_on>2016-10-31 13:40:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

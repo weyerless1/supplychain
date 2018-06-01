@@ -1513,48 +1513,6 @@
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>new_supplier</element>
-            <position>108</position>
-            <sys_created_by>sxUpadhyay</sys_created_by>
-            <sys_created_on>2017-11-08 15:54:37</sys_created_on>
-            <sys_id>08ed917913524300cb92b7a66144b0ef</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
-            <sys_updated_by>sxUpadhyay</sys_updated_by>
-            <sys_updated_on>2017-11-08 15:54:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assign_group</element>
-            <position>109</position>
-            <sys_created_by>sxUpadhyay</sys_created_by>
-            <sys_created_on>2018-01-10 17:48:17</sys_created_on>
-            <sys_id>cf045e8613eb47c0cb92b7a66144b0ba</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
-            <sys_updated_by>sxUpadhyay</sys_updated_by>
-            <sys_updated_on>2018-01-10 17:48:17</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assignment_grp</element>
-            <position>110</position>
-            <sys_created_by>sxUpadhyay</sys_created_by>
-            <sys_created_on>2018-01-10 17:50:19</sys_created_on>
-            <sys_id>b484d6c613eb47c0cb92b7a66144b06b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ahho_supply_chai_all_requests" sys_domain="global" view="Default view">ec3198b913fa6200cb92b7a66144b075</sys_ui_section>
-            <sys_updated_by>sxUpadhyay</sys_updated_by>
-            <sys_updated_on>2018-01-10 17:50:19</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
@@ -1566,7 +1524,7 @@
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>ec3198b913fa6200cb92b7a66144b075</sys_id>
-            <sys_mod_count>17</sys_mod_count>
+            <sys_mod_count>14</sys_mod_count>
             <sys_name>x_ahho_supply_chai_all_requests</sys_name>
             <sys_overrides/>
             <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
@@ -1575,7 +1533,7 @@
             <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
             <sys_update_name>sys_ui_section_ec3198b913fa6200cb92b7a66144b075</sys_update_name>
             <sys_updated_by>sxUpadhyay</sys_updated_by>
-            <sys_updated_on>2018-01-10 17:50:19</sys_updated_on>
+            <sys_updated_on>2017-07-25 13:54:44</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

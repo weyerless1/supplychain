@@ -55,9 +55,9 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>sxUpadhyay</sys_created_by>
         <sys_created_on>2017-07-07 16:11:33</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>496c32f9137bfa00d80074c66144b08a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Vendor</sys_name>
         <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
         <sys_policy/>
@@ -65,7 +65,7 @@
         <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
         <sys_update_name>sys_dictionary_x_ahho_supply_chai_all_requests_vendor</sys_update_name>
         <sys_updated_by>sxUpadhyay</sys_updated_by>
-        <sys_updated_on>2017-07-17 20:10:47</sys_updated_on>
+        <sys_updated_on>2017-08-14 03:06:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

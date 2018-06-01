@@ -62,7 +62,7 @@ var answer = sysid1 +';'+sysid2;
         <sys_mod_count>7</sys_mod_count>
         <sys_name>masterVendorIntegrationInquiryOrdering</sys_name>
         <sys_package display_value="Supply Chain Request Management" source="x_ahho_supply_chai">2dd7dabb136aee0082857e776144b0a3</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
         <sys_update_name>sys_script_include_76d36fd313c80f00d80074c66144b0a2</sys_update_name>

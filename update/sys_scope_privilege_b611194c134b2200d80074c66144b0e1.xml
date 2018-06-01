@@ -17,7 +17,7 @@
         <sys_scope display_value="Supply Chain Request Management">2dd7dabb136aee0082857e776144b0a3</sys_scope>
         <sys_update_name>sys_scope_privilege_b611194c134b2200d80074c66144b0e1</sys_update_name>
         <sys_updated_by>tlWeyer</sys_updated_by>
-        <sys_updated_on>2017-06-16 16:03:17</sys_updated_on>
+        <sys_updated_on>2017-06-21 20:14:32</sys_updated_on>
         <target_name>ScopedGlideElement</target_name>
         <target_scope display_value="Global">global</target_scope>
         <target_type>scriptable</target_type>
